@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+button {
+  width: 7rem;
+}
+
+@media only screen and (max-width: 950px) {
+  #gambar {
+    margin-bottom: 1rem;
+  }
+}
+
+@media (min-width: 992px) {
+  #gambar {
+    justify-content: center;
+  }
+
+  #gambar {
+    margin-bottom: 3rem;
+  }
+}

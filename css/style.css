@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  direction: ltr;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
+  justify-content: center;
+  align-items: center;
+}
+
+/*navbar*/
+.navbar {
+  transition: all 0.5s;
+}
+
+.navbar-scrolled {
+  background-color: #332d2d;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+/*end navbar*/
+
+/*jumbo*/
+.btn-outline-success:hover {
+  background: #14a44d;
+  transition: 0.5s;
+}
+
+/*end jumbo*/
+
+/*sejarah*/
+.sejarah {
+  width: 35rem;
+  height: 30rem;
+}
+/*end sejarah*/
+
+/*img*/
+.mid {
+  margin-bottom: 200px;
+  margin-top: 150px;
+}
+
+.banner-content {
+  height: 500px;
+  width: 100%;
+  padding-bottom: -60px;
+  object-fit: cover;
+  justify-content: center;
+  align-items: center;
+}
+/*end img*/
+
+/*pelanggan*/
+.card-img-top {
+  height: 8rem;
+}
+
+.perang {
+  margin: 10px 10px;
+}
+
+.pelanggan {
+  height: 35rem;
+  background-color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 400px;
+  margin-top: 270px;
+}
+
+.pengguna {
+  margin-bottom: 350px;
+}
+/*end pelanggan*/
+
+/* LP */
+@media (min-width: 992px) {
+  .nav-link:hover::after {
+    content: "";
+    display: block;
+    border-bottom: 3px solid #14a44d;
+    width: 60%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+  }
+}
+
+/*HP */
+@media only screen and (max-width: 950px) {
+  .navbar {
+    text-align: center;
+  }
+
+  .nav-link {
+    margin-bottom: 7px;
+  }
+
+  .nav-link:hover::after {
+    content: "";
+    display: block;
+    border-bottom: 3px solid #14a44d;
+    width: 10%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+  }
+
+  .sejarah {
+    height: 20rem;
+    width: 23rem;
+  }
+
+  .pelanggan {
+    margin-bottom: 160rem;
+  }
+
+  .perang {
+    margin-top: 40px;
+  }
+
+  .turki {
+    margin-top: 50px;
+  }
+}
