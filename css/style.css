@@ -39,6 +39,10 @@ body {
   width: 35rem;
   height: 30rem;
 }
+
+#sejarah h2 {
+  margin-top: 100px;
+}
 /*end sejarah*/
 
 /*img*/
@@ -55,6 +59,7 @@ body {
   justify-content: center;
   align-items: center;
 }
+
 /*end img*/
 
 /*pelanggan*/
@@ -64,6 +69,7 @@ body {
 
 .perang {
   margin: 10px 10px;
+  height: 29rem;
 }
 
 .pelanggan {
@@ -76,6 +82,7 @@ body {
 .pengguna {
   margin-bottom: 350px;
 }
+
 /*end pelanggan*/
 
 /* LP */
@@ -116,12 +123,23 @@ body {
     width: 23rem;
   }
 
+  #sejarah h2 {
+    margin-top: 60px;
+  }
+
   .pelanggan {
     margin-bottom: 160rem;
   }
 
   .perang {
     margin-top: 40px;
+  }
+
+  .perang {
+    margin-left: 31px;
+    margin-top: 40px;
+    height: 29rem;
+    width: 19rem;
   }
 
   .turki {
